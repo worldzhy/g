@@ -136,6 +136,14 @@ const ALL_MICROSERVICES = {
     moduleNames: 'WorkflowModule',
     importCode: `import {WorkflowModule} from './workflow/workflow.module';`,
   },
+  'google-auth': {
+    key: 'google-auth',
+    srcPath: './src/microservices/google-auth',
+    schemaFileName: null,
+    configFileName: null,
+    moduleNames: 'GoogleAuthModule',
+    importCode: `import {GoogleAuthModule} from './google-auth/google-auth.module';`,
+  },
 };
 
 module.exports = {

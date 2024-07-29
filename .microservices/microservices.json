@@ -1,3 +1,7 @@
 {
-  "enabled": []
+  "enabled": [
+    "account",
+    "notification",
+    "google-auth"
+  ]
 }

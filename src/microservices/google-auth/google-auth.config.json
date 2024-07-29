@@ -1,0 +1,13 @@
+{
+  "config-service": {
+    "googleAuth": {
+      "clientId": "process.env.GOOGLE_AUTH_CLIENT_ID",
+      "clientSecret": "process.env.GOOGLE_AUTH_CLIENT_SECRET"
+    }
+  },
+  "env": {
+    "GOOGLE_AUTH_CLIENT_ID": "",
+    "GOOGLE_AUTH_CLIENT_SECRET": "",
+    "GOOGLE_AUTH_CALLBACK_URL": ""
+  }
+}
