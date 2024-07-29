@@ -56,4 +56,9 @@ export default registerAs('microservices', () => ({
         'https://sqs.us-east-1.amazonaws.com/196438055748/traceable-email-service-email-queue-level1',
     },
   },
+  googleAuth: {
+    clientId: process.env.GOOGLE_AUTH_CLIENT_ID,
+    clientSecret: process.env.GOOGLE_AUTH_CLIENT_SECRET,
+    callbackURL: process.env.GOOGLE_AUTH_CALLBACK_URL,
+  },
 }));

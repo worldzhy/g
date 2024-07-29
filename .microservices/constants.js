@@ -140,7 +140,7 @@ const ALL_MICROSERVICES = {
     key: 'google-auth',
     srcPath: './src/microservices/google-auth',
     schemaFileName: null,
-    configFileName: null,
+    configFileName: 'google-auth.config.json',
     moduleNames: 'GoogleAuthModule',
     importCode: `import {GoogleAuthModule} from './google-auth/google-auth.module';`,
   },
